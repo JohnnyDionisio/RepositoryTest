@@ -12,3 +12,27 @@
     color: black;
     text-align: center;
  }
+
+ #cabecalho {
+      background-color: cadetblue;
+      color: black;
+      text-align: center;
+      padding: 1px;
+
+      & a {
+          color: darkred;
+          text-decoration: none;
+      } 
+      & a:hover {
+          color: white;
+          text-decoration: none;
+      }
+ }
+
+
+ footer {
+      background-color: cadetblue;
+      color: black;
+      text-align: center;
+      padding: auto;
+ }
